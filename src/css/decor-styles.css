@@ -1,0 +1,63 @@
+body {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  padding: 25px 35px;
+  margin: 0;
+  background-image: url('https://picsum.photos/id/122/4147/2756');
+  background-repeat: no-repeat;
+  background-position: left top;
+  background-size: cover;
+}
+
+input {
+  width: 700px;
+  text-align: center;
+  font-size: 22px;
+  border-radius: 15px;
+  border: 2px solid rgb(153, 149, 153);
+  outline: none;
+}
+
+.country-list {
+  list-style: none;
+  padding: 0;
+}
+
+.country-info,
+.country-list {
+  background-color: rgba(255, 255, 255, 0.582);
+  border-radius: 30px;
+}
+
+.list-item:not(:last-child) {
+  margin-bottom: 10px;
+  border-bottom: 2px dashed white;
+}
+
+.flag-pic {
+  width: 60px;
+  margin-right: 10px;
+}
+
+.wrap {
+  font-size: 25px;
+  font-weight: 700;
+  color: rgb(13, 59, 80);
+  margin: 0;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.wrap-text {
+  font-size: 30px;
+  color: rgb(5, 50, 68);
+}
+
+.name {
+  font-weight: 800;
+  font-size: 50px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: black;
+}
